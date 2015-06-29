@@ -52,8 +52,9 @@
   background-color: #EEF1F5;
 }
 
+
 .editor, atom-text-editor::shadow {
-  font-size: 11px;
+  font-size: 12px;
 
   .invisible-character {
     color: #dadada;
@@ -62,10 +63,37 @@
     color: #b3b3b3;
     box-shadow: inset 1px 0 #ececec;
   }
-  .gutter {
-    opacity: 0.6;
+
+  .wrap-guide {
+    color: #E4E4E4;
+    background: #E4E4E4;
   }
 }
+
+.editor, atom-text-editor::shadow {
+  .gutter .line-number {
+    color: #b6b6b6;
+    padding-left: calc(0.5em);
+  }
+  .gutter .line-number.git-line-modified {
+    border-left: 4px solid #e2a304;
+    padding-left: calc(0.5em - 4px);
+    color: #cb9100;
+  }
+
+  .gutter .line-number.git-line-added {
+    border-left: 4px solid #76cc18;
+    padding-left: calc(0.5em - 4px);
+    color: #4e9005;
+  }
+
+  .gutter .line-number.git-line-removed {
+    &:before {
+      color: #e70f1c;
+    }
+  }
+}
+
 
 /* Panes */
 .pane {

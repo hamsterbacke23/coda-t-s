@@ -1,0 +1,11 @@
+{
+  "name": "coda-t-s",
+  "theme": "syntax",
+  "version": "0.0.1",
+  "description": "Easy on the eyes light theme",
+  "repository": "https://github.com/hamsterbacke23/coda-t-s",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  }
+}

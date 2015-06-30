@@ -3,32 +3,9 @@
   "theme": "syntax",
   "version": "0.2.2",
   "description": "Easy on the eyes light theme",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/hamsterbacke23/coda-t-s"
-  },
+  "repository": "https://github.com/hamsterbacke23/coda-t-s",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
-  },
-  "readme": "# coda-t-s theme\n\nEasy on the eyes light theme based on the coda theme\n",
-  "readmeFilename": "README.md",
-  "bugs": {
-    "url": "https://github.com/hamsterbacke23/coda-t-s/issues"
-  },
-  "homepage": "https://github.com/hamsterbacke23/coda-t-s",
-  "_id": "coda-t-s@0.2.2",
-  "_shasum": "18e4d52f9e0a4b3d321a032f11f3963d560ed1b2",
-  "_resolved": "file:../d-115530-73933-clz3ul/package.tgz",
-  "_from": "../d-115530-73933-clz3ul/package.tgz",
-  "_atomModuleCache": {
-    "version": 1,
-    "dependencies": [],
-    "extensions": {
-      ".json": [
-        "package.json"
-      ]
-    },
-    "folders": []
   }
 }
